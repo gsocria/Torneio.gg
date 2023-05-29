@@ -1,0 +1,95 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 5%, rgba(255,222,89,1) 95%);
+}
+
+.main {
+    display:grid;
+    place-items: center;
+    text-align: center;
+    height: 100vh
+}
+
+
+.tudo {
+    display:flex;
+    border:1px solid black;
+}
+
+.img {
+   
+}
+
+.img img {
+    width: 400px;
+    height: 100%;
+
+}
+.login {
+    width: 400px;
+    heigth: 100%;
+    background: #000000;
+    border-left: 1px solid white;
+    
+}
+
+h2 {
+    color: #ffde59;
+    margin-top:20%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    text-align: left;
+    margin-left: 40px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffde59;
+}
+
+.login select {
+    width:80%;
+}
+
+.cadastro {
+    margin-top: 15px;
+}
+
+.cadastro p{
+    color: white;
+}
+
+.cadastro p a {
+
+    color: #ffde59;
+    text-decoration: none;
+}
+
