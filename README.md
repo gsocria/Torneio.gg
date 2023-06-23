@@ -1,1 +1,1 @@
-# projeto-Torneio
+# Torneios.gg (em desenvolvimento)
